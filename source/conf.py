@@ -167,7 +167,7 @@ html_use_index = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'HowtoHireaRockStarEngineerdoc'
+htmlhelp_basename = 'HowToHireARockStar'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -186,7 +186,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'HowtoHireaRockStarEngineer.tex', u'How to Hire a Rock Star Engineer Documentation',
+  ('index', 'HowToHireARockStar.tex', u'How to Hire a Rock Star Engineer',
    u'Mike Edmunds', 'howto'),
 ]
 
@@ -216,7 +216,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'howtohirearockstarengineer', u'How to Hire a Rock Star Engineer Documentation',
+    ('index', 'howtohirearockstar', u'How to Hire a Rock Star Engineer',
      [u'Mike Edmunds'], 1)
 ]
 
@@ -230,8 +230,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'HowtoHireaRockStarEngineer', u'How to Hire a Rock Star Engineer Documentation',
-   u'Mike Edmunds', 'HowtoHireaRockStarEngineer', 'One line description of project.',
+  ('index', 'HowToHireARockStar', u'How to Hire a Rock Star Engineer',
+   u'Mike Edmunds', 'HowToHireARockStar', 'A guide to interviewing engineers at our company',
    'Miscellaneous'),
 ]
 
@@ -251,7 +251,7 @@ texinfo_documents = [
 epub_title = u'How to Hire a Rock Star Engineer'
 epub_author = u'Mike Edmunds'
 epub_publisher = u'Mike Edmunds'
-epub_copyright = u'2013, Mike Edmunds'
+epub_copyright = u'2005-2013, Mike Edmunds'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
