@@ -1,2 +1,8 @@
+.DS_Store
+._*
+*.pyc
+*.pyc
+*.egg-info
 build/
+dist/
 TODO.txt
