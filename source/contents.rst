@@ -1,7 +1,7 @@
 :nocomments: true
 
-Contents
-========
+Detailed Contents
+=================
 
 .. toctree::
 

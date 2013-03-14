@@ -1,0 +1,8 @@
+{# It was driving me crazy to have the master-ToC link appear and disappear
+   depending on whether the current page had internal structure, so this just
+   makes everything unconditional. (And fixes some wording and capitalization.)
+#}
+<h3><a href="{{ pathto(master_doc) }}">{{ _('Table of Contents') }}</a></h3>
+
+<h3>{{ _('This topic') }}</h3>
+{{ toc }}
