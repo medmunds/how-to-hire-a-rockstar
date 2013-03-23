@@ -50,6 +50,20 @@ ul {
     list-style-type: disc;
 }
 
+a.external {
+    /* make offsite links look different */
+    border-bottom-style: dashed;
+}
+
+a.internal > em {
+    /* Sphinx :ref: role insists on emphasizing its text.
+       That makes sense for referencing section titles,
+       but since we tend to use :ref:`custom labels for a <section>`,
+       this is almost never appropriate.
+    */
+    font-style: normal;
+}
+
 /* By default, we want lists to have lots of space between items */
 
 ul.simple > li,
