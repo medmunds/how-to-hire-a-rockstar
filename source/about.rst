@@ -90,3 +90,5 @@ To make your own version:
 License
 -------
 
+.. include:: /copyright.rst
+   :start-after: about-includes-below-here
