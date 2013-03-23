@@ -8,3 +8,12 @@
 {%- endmacro -%}
 
 {% set copyright = copyright|e + ' '|e + cclicense()|safe %}
+
+{% block body %}
+  {{ super() }}
+  {% if next %}
+      <div class="keepreading">
+          Next: <a href="{{ next.link|e }}">{{ next.title }}</a>
+      </div>
+  {% endif %}
+{% endblock %}
