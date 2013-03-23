@@ -1,31 +1,53 @@
-Overriding Philosophy
+.. _philosophy:
+
+Key Hiring Philosophy
 =====================
 
-One general philosophy applies to all of our hiring. It is this:
+One overriding philosophy applies to all of our hiring:
+
+.. rst-class:: boxed-quote
 
 .. pull-quote::
 
-   **We hire ability, not just knowledge.**
+   We hire *ability,* not just knowledge.
 
 
-Some companies hire based solely on *what you know*: How long have you been programming in
-C#/Java/ActionScript/Fortran? How do you implement a Java servlet/DirectShow filter/multithreaded
-COM object/interactive stack for HD-DVD? What do you need to watch out for when porting an MFC
-application to WPF/using CSS in Internet Explorer 6/writing a TWAIN driver that works on Windows
-2000 and ME?
+Some companies hire based solely on *what you know.* Things like:
+
+.. rst-class:: tight
+
+* How long have you been programming in Clojure/Python/C++/Fortran?
+* How would you implement a private method in JavaScript?
+  ... a singleton in Java?
+  ... a multithreaded COM object?
+* What are some common gotchas in configuring nginx to run on EC2?
+  ... creating bulletproof rounded corners in CSS?
+  ... porting an MFC application to WPF?
+
+That's some companies. *Not us.*
 
 It's not that we object to knowledge; it's just that
-*knowledge alone is insufficient to make someone a great engineer.* The problem with raw knowledge
-is that it becomes dated---sometimes very rapidly (as you've perhaps noticed in the examples
-above). Plus, there's a whole lot of knowledge out there that's irrelevant to what we do.
+*knowledge alone is insufficient to make someone a great engineer.*
 
-We hire ability, potential, aptitude. We hire people who not only know old things, but also
-*know how to learn new things.* We hire Rock Star Engineers who want to work on products and ideas
-that have never existed before, because that's what we're building.
+You might think the perfect hire would be someone who's an absolute expert
+on the problems we're solving and the technologies we're using today.
+But this industry moves fast, and we won't face exactly the same mix
+of problems and technologies tomorrow. It's guaranteed.
 
-It's easy to interview for knowledge. In fact, you can use a written test and not even bother with
-the time and trouble of an interview.
+Raw knowledge goes stale---sometimes very rapidly. (Look at the examples above.)
+Someone whose entire value is locked up in a specific area of knowledge
+just won't be able to evolve with our business.
 
-Interviewing for ability takes more preparation and effort, but it's not that hard once you know
-what you're looking for. And it pays off right away. That's what this guide is all about.
+So instead, we hire ability, potential, aptitude...
+We hire people who not only know current things, but also **know how to learn new things.**
+We hire Rock Star Engineers who want to work on products and ideas that have never existed before,
+because that's what we're building.
 
+Interviewing for raw knowledge is relatively easy.
+(In fact, you could just administer an online test
+and not even bother with the hassle of an actual interview.)
+
+Interviewing for ability takes more preparation and effort,
+but it's not so hard once you know how.
+And it pays off right away.
+That's what this guide is all about.
