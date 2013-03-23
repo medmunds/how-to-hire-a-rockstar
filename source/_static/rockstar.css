@@ -1,0 +1,79 @@
+@import url("sphinxdoc.css");
+
+/* our custom styles */
+
+div.keepreading {
+    text-align: right;
+    margin-top: 1em;
+}
+
+.boxed-quote {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div.tl-dr p.last {
+    margin-top: 1em;
+}
+
+p.subtitle {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #11557C;
+}
+
+@media print {
+    div.keepreading {
+        display: none;
+    }
+}
+
+/* hack to work around toctree:hidden bug */
+/* note: this breaks singlehtml output */
+
+.hidden {
+    display: none;
+}
+
+/* alter Sphinx styles */
+
+body {
+    line-height: 175%;
+}
+
+div.sphinxsidebar p,
+div.toctree-wrapper {
+    line-height: 130%;
+}
+
+div.admonition {
+    line-height: 150%;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul.simple > li,
+ol.simple > li {
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+ul.tight > li,
+ol.tight > li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li p.first {
+    margin-top: 1em !important;
+}
+li p {
+    margin-top: 0.5em;
+}
+
+div.topic {
+    margin: 1.5em 0;
+}
