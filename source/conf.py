@@ -11,7 +11,10 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
+import os
+import sys
+
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -94,9 +97,10 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'sphinxdoc'
+#html_theme = 'default'
 
-html_style = 'rockstar.css'
+if not on_rtd:
+    html_style = 'rtd-local.css'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -292,3 +296,7 @@ epub_copyright = u'2005-2013, Mike Edmunds'
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {}
+
+
+def setup(app):
+    app.add_stylesheet("rockstar.css")

@@ -1,10 +1,8 @@
-@import url("sphinxdoc.css");
-
-/* our custom styles */
+/* Extensions to the Sphinx basic and RTD styles */
 
 div.keepreading {
     text-align: right;
-    margin-top: 1em;
+    margin: 1.5em 0;
 }
 
 .boxed-quote {
@@ -18,9 +16,9 @@ div.tl-dr p.last {
 }
 
 p.subtitle {
-    margin-top: 0;
+    margin-top: -0.2em;
     font-size: 1.2em;
-    color: #11557C;
+    color: #111;
 }
 
 @media print {
@@ -36,24 +34,23 @@ p.subtitle {
     display: none;
 }
 
-/* alter Sphinx styles */
+/* alter basic styles */
 
-body {
-    line-height: 175%;
+strong {
+    color: #111;
 }
 
-div.sphinxsidebar p,
-div.toctree-wrapper {
-    line-height: 130%;
-}
-
-div.admonition {
-    line-height: 150%;
+dt,
+p.topic-title {
+    font-weight: bold;
+    color: #465158;
 }
 
 ul {
     list-style-type: disc;
 }
+
+/* By default, we want lists to have lots of space between items */
 
 ul.simple > li,
 ol.simple > li {
@@ -61,11 +58,22 @@ ol.simple > li {
     margin-bottom: 0.5em;
 }
 
+/* "tight" lists eliminate that space */
+
 ul.tight > li,
 ol.tight > li {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+div.tight {
+    line-height: 1.3em;
+}
+
+/* List items with multiple paragraphs visually group wrong in the basic style
+   (there's more space between paragraphs in a single item than between items).
+   This fixes that:
+*/
 
 li p.first {
     margin-top: 1em !important;
@@ -74,6 +82,9 @@ li p {
     margin-top: 0.5em;
 }
 
+/* The basic style makes topic boxes look really cramped */
+
 div.topic {
     margin: 1.5em 0;
+    padding: 1em 1em 0 1em;
 }
