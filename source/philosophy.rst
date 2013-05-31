@@ -9,7 +9,7 @@ One overriding philosophy applies to all of our hiring:
 
 .. pull-quote::
 
-   We hire *ability,* not just knowledge.
+   We hire *aptitude,* not just knowledge.
 
 
 Some companies hire based solely on *what you know.* Things like:
@@ -47,7 +47,7 @@ Interviewing for raw knowledge is relatively easy.
 (In fact, you could just administer an online test
 and not even bother with the hassle of an actual interview.)
 
-Interviewing for ability takes more preparation and effort,
+Interviewing for aptitude takes more preparation and effort,
 but it's not so hard once you know how.
 And it pays off right away.
 That's what this guide is all about.

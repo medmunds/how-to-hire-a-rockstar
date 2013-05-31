@@ -14,7 +14,7 @@ How to Hire a Rock Star Engineer
 
    .. rst-class:: tight
 
-   * :ref:`We hire ability <philosophy>`, not just knowledge
+   * :ref:`We hire aptitude <philosophy>`, not just knowledge
    * We divvy up several :ref:`interview topics <interview-areas>` among the team,
      covering technical skills, commercial software craftsmanship, and team fit
    * Every interviewer must reach a :ref:`yes or no decision <interviewing-techniques>`---we

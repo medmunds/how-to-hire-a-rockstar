@@ -56,7 +56,7 @@ copyright = u'2005-2013, Mike Edmunds'
 # The short X.Y version.
 version = '3'
 # The full version, including alpha/beta/rc tags.
-release = '3'
+release = '3.1'
 
 # ext.disqus config
 if on_rtd:

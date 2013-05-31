@@ -9,7 +9,7 @@ we already know you're adept at picking up new skills.
 
 Just remember:
 
-* :ref:`We hire ability <philosophy>`, not just knowledge.
+* :ref:`We hire aptitude <philosophy>`, not just knowledge.
 
 * To make sure we cover everything that's important,
   we allocate several :ref:`interview topics <interview-areas>` among the team.
